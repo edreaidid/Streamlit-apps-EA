@@ -27,7 +27,7 @@ z = user_input_features()
 st.subheader('User Input parameters')
 st.write(z)
 
-df = pd.read_csv('C:\\Users\\raef\\code-master\\streamlit\\part2\\healthstatus6.csv')
+df = pd.read_csv("https://github.com/edreaidid/Streamlit-apps-EA/blob/main/healthstatus6.csv")
 
 def filter(x):
     if x < 6.5:
