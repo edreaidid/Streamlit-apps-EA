@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 
 st.write("""
-# Glucose Control Prediction App 
+# Glucose Control Prediction App by EA23 
 
 This app predicts the **glucose control** for you!
 """)
