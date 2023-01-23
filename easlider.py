@@ -44,8 +44,7 @@ clf.fit(X, Y)
 prediction = clf.predict(z)
 prediction_proba = clf.predict_proba(z)
 
-st.subheader('Class labels and their corresponding index number')
-st.write(df['glu'])
+st.subheader('Poor glucose control is =>6.5 mmol/l, while good control is <6.5 mmol/l')
 
 st.subheader('Prediction')
 st.write(prediction)
